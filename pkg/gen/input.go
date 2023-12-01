@@ -15,7 +15,7 @@ func WebInput(year, day int) []byte {
 	// Fetch from Advent of Code website
 	url := fmt.Sprintf("https://adventofcode.com/%d/day/%d/input", year, day)
 	c := http.Client{Timeout: time.Duration(3) * time.Second}
-
+	
 	session := &http.Cookie{
 		Name:   "session",
 		Value:  os.Getenv("AOC_SESSION"),

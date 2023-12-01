@@ -1,5 +1,5 @@
-# aoc2023
-my busted ass code for this comp, using (https://github.com/timkelleher/aocgen)
+# [aoc2023](https://adventofcode.com/2023)
+my code for this comp, using (https://github.com/timkelleher/aocgen)
 
 # AOCgen
 
